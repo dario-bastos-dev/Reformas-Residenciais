@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reformas Residenciais</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/normalize.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="main-header">
+      <div class="container">
+        <a href="/" class="logo">
+          <img
+            src="logo.svg"
+            alt="Logo [Nome da Empresa] Reformas Residenciais"
+            height="50"
+          />
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="phone-number">
+          <i class="icon-phone"></i> (11) 9999-9999
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <main class="hero-section" id="inicio">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-headline">Transforme sua casa em um novo lar</h1>
+        <h2 class="hero-subheadline">
+          Reformas residenciais profissionais, dentro do prazo e do orçamento
+        </h2>
+        <a href="#contato" class="hero-cta">Solicite um orçamento grátis</a>
+      </div>
+    </main>
+    <!-- Benefits Section -->
+    <section class="benefits-section" id="servicos">
+      <div class="container">
+        <h2 class="section-title">Por que escolher nossos serviços</h2>
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="icon-team"></i>
+            </div>
+            <h3 class="benefit-title">Equipe Especializada</h3>
+            <p class="benefit-description">
+              Profissionais altamente qualificados e experientes em reformas
+              residenciais.
+            </p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="icon-quality"></i>
+            </div>
+            <h3 class="benefit-title">Materiais de Qualidade</h3>
+            <p class="benefit-description">
+              Utilizamos apenas materiais de primeira linha para garantir
+              durabilidade e acabamento impecável.
+            </p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="icon-clock"></i>
+            </div>
+            <h3 class="benefit-title">Prazo Garantido</h3>
+            <p class="benefit-description">
+              Comprometimento com o cronograma estabelecido, entregando sua
+              reforma no prazo combinado.
+            </p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="icon-cleanup"></i>
+            </div>
+            <h3 class="benefit-title">Limpeza Pós-obra</h3>
+            <p class="benefit-description">
+              Entregamos sua casa limpa e pronta para ser desfrutada
+              imediatamente após a reforma.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="galeria">
+      <div class="container">
+        <h2 class="section-title">Nossos Projetos de Sucesso</h2>
+        <div class="project-carousel">
+          <div class="project-item">
+            <img
+              src="projeto1-antes-depois.jpg"
+              alt="Antes e depois da reforma do apartamento em São Paulo"
+            />
+            <div class="project-overlay">
+              <h3 class="project-title">Reforma Apartamento SP</h3>
+              <p class="project-description">
+                Renovação completa de um apartamento de 100m² em São Paulo,
+                incluindo cozinha e banheiros.
+              </p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img
+              src="projeto2-antes-depois.jpg"
+              alt="Antes e depois da reforma da casa em Campinas"
+            />
+            <div class="project-overlay">
+              <h3 class="project-title">Reforma Casa Campinas</h3>
+              <p class="project-description">
+                Modernização de uma casa de 150m² em Campinas, com foco em
+                sustentabilidade.
+              </p>
+            </div>
+          </div>
+          <div class="project-item">
+            <img
+              src="projeto3-antes-depois.jpg"
+              alt="Antes e depois da reforma do escritório em casa"
+            />
+            <div class="project-overlay">
+              <h3 class="project-title">Home Office Rio de Janeiro</h3>
+              <p class="project-description">
+                Transformação de um quarto em um espaço de trabalho moderno e
+                funcional.
+              </p>
+            </div>
+          </div>
+          <!-- Adicione mais itens de projeto conforme necessário -->
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <div class="container">
+        <h2 class="section-title">O que nossos clientes dizem</h2>
+        <div class="testimonials-carousel">
+          <div class="testimonial-item">
+            <img
+              src="cliente1.jpg"
+              alt="Foto de Maria Silva"
+              class="client-photo"
+            />
+            <h3 class="client-name">Maria Silva</h3>
+            <div class="star-rating">★★★★★</div>
+            <p class="testimonial-text">
+              "A equipe de reforma superou todas as nossas expectativas. O
+              projeto foi entregue no prazo e o resultado final ficou incrível.
+              Recomendo fortemente!"
+            </p>
+          </div>
+          <div class="testimonial-item">
+            <img
+              src="cliente2.jpg"
+              alt="Foto de João Santos"
+              class="client-photo"
+            />
+            <h3 class="client-name">João Santos</h3>
+            <div class="star-rating">★★★★★</div>
+            <p class="testimonial-text">
+              "Profissionais altamente qualificados e atenciosos. Nossa cozinha
+              ficou exatamente como sonhávamos. Obrigado pela dedicação e
+              excelente trabalho!"
+            </p>
+          </div>
+          <div class="testimonial-item">
+            <img
+              src="cliente3.jpg"
+              alt="Foto de Ana Oliveira"
+              class="client-photo"
+            />
+            <h3 class="client-name">Ana Oliveira</h3>
+            <div class="star-rating">★★★★★</div>
+            <p class="testimonial-text">
+              "A reforma do meu apartamento foi realizada com muita competência
+              e profissionalismo. A equipe foi muito prestativa e o resultado
+              final superou minhas expectativas!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How It Works Section -->
+    <section class="how-it-works-section">
+      <div class="container">
+        <h2 class="section-title">Como Funciona Nossa Reforma</h2>
+        <div class="process-steps">
+          <div class="step-item">
+            <div class="step-icon">1</div>
+            <h3 class="step-title">Contato</h3>
+            <p class="step-description">
+              Entre em contato conosco através do formulário ou telefone.
+            </p>
+          </div>
+          <div class="step-item">
+            <div class="step-icon">2</div>
+            <h3 class="step-title">Orçamento</h3>
+            <p class="step-description">
+              Realizamos uma visita técnica e elaboramos um orçamento detalhado.
+            </p>
+          </div>
+          <div class="step-item">
+            <div class="step-icon">3</div>
+            <h3 class="step-title">Planejamento</h3>
+            <p class="step-description">
+              Desenvolvemos o projeto e definimos o cronograma da reforma.
+            </p>
+          </div>
+          <div class="step-item">
+            <div class="step-icon">4</div>
+            <h3 class="step-title">Execução</h3>
+            <p class="step-description">
+              Nossa equipe realiza a reforma com qualidade e dentro do prazo.
+            </p>
+          </div>
+          <div class="step-item">
+            <div class="step-icon">5</div>
+            <h3 class="step-title">Entrega</h3>
+            <p class="step-description">
+              Entregamos sua reforma pronta e fazemos uma inspeção final.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Form Section -->
+    <section class="contact-form-section" id="contato">
+      <div class="container">
+        <h2 class="section-title">Solicite seu orçamento</h2>
+        <p class="section-intro">
+          Preencha o formulário abaixo e nossa equipe entrará em contato em até
+          24 horas.
+        </p>
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="reform-type">Tipo de Reforma</label>
+            <select id="reform-type" name="reform-type" required>
+              <option value="">Selecione o tipo de reforma</option>
+              <option value="cozinha">Cozinha</option>
+              <option value="banheiro">Banheiro</option>
+              <option value="sala">Sala</option>
+              <option value="quarto">Quarto</option>
+              <option value="casa-completa">Casa Completa</option>
+            </select>
+          </div>
+          <button type="submit" class="submit-btn">Solicitar orçamento</button>
+        </form>
+      </div>
+    </section>
+    <!-- Guarantees Section -->
+    <section class="guarantees-section">
+      <div class="container">
+        <h2 class="section-title">Nossas Garantias e Certificações</h2>
+        <div class="guarantees-grid">
+          <div class="guarantee-item">
+            <img
+              src="seal-quality.svg"
+              alt="Selo de Qualidade"
+              class="guarantee-icon"
+            />
+            <h3 class="guarantee-title">Selo de Qualidade</h3>
+            <p class="guarantee-description">
+              Reconhecidos pela excelência em serviços de reforma.
+            </p>
+          </div>
+          <div class="guarantee-item">
+            <img
+              src="certification.svg"
+              alt="Certificação"
+              class="guarantee-icon"
+            />
+            <h3 class="guarantee-title">Certificação ISO 9001</h3>
+            <p class="guarantee-description">
+              Certificados em gestão de qualidade para reformas residenciais.
+            </p>
+          </div>
+          <div class="guarantee-item">
+            <img src="partnership.svg" alt="Parceria" class="guarantee-icon" />
+            <h3 class="guarantee-title">Parceiros Certificados</h3>
+            <p class="guarantee-description">
+              Trabalhamos apenas com fornecedores de materiais certificados.
+            </p>
+          </div>
+          <div class="guarantee-item">
+            <img src="warranty.svg" alt="Garantia" class="guarantee-icon" />
+            <h3 class="guarantee-title">Garantia de 5 Anos</h3>
+            <p class="guarantee-description">
+              Oferecemos garantia estendida em todos os nossos serviços.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              Quanto tempo dura uma reforma residencial típica?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                O tempo de uma reforma residencial pode variar dependendo da
+                complexidade e escopo do projeto. Geralmente, uma reforma de um
+                cômodo pode levar de 2 a 4 semanas, enquanto uma reforma
+                completa de casa pode levar de 2 a 6 meses. Fornecemos um
+                cronograma detalhado no início do projeto.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Vocês fornecem todos os materiais para a reforma?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Sim, nós fornecemos todos os materiais necessários para a sua
+                reforma. Trabalhamos com fornecedores de confiança e oferecemos
+                uma variedade de opções para atender às suas preferências e
+                orçamento. No entanto, se você preferir comprar alguns itens
+                específicos, podemos incorporá-los ao projeto.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              É possível morar na casa durante a reforma?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Dependendo da extensão da reforma, é possível continuar morando
+                na casa. Para reformas menores ou localizadas, geralmente não há
+                problema. Para reformas mais extensas, pode ser necessário se
+                mudar temporariamente. Discutimos essas opções durante o
+                planejamento do projeto para minimizar inconvenientes.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Como é feito o pagamento da reforma?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Normalmente, dividimos o pagamento em etapas. Um depósito
+                inicial é feito para começar o projeto, seguido por pagamentos
+                parciais conforme o progresso da obra. O pagamento final é feito
+                após a conclusão satisfatória da reforma. Aceitamos diversas
+                formas de pagamento e podemos discutir opções de financiamento,
+                se necessário.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-more">
+          <a href="#contato" class="btn-more-questions">Fazer orçamento</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3 class="footer-title">Navegue</h3>
+            <ul class="footer-links">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#galeria">Galeria</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 class="footer-title">Serviços</h3>
+            <ul class="footer-links">
+              <li><a>Reforma de Cozinha</a></li>
+              <li><a>Reforma de Banheiro</a></li>
+              <li><a>Reforma de Sala</a></li>
+              <li><a>Reforma de Quarto</a></li>
+              <li><a>Reforma Completa</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 class="footer-title">Contato</h3>
+            <p>Rua das Reformas, 123</p>
+            <p>São Paulo - SP</p>
+            <p>Tel: (11) 1234-5678</p>
+            <p>Email: contato@reformasresidenciais.com</p>
+          </div>
+          <div class="footer-section">
+            <h3 class="footer-title">Redes Sociais</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-policies">
+            <a href="#privacy">Política de Privacidade</a> |
+            <a href="#terms">Termos de Uso</a>
+          </div>
+          <div class="footer-copyright">
+            &copy; 2024 Reformas Residenciais. Todos os direitos reservados.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

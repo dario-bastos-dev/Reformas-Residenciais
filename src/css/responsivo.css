@@ -1,0 +1,239 @@
+@media (max-width: 480px) {
+  /* Hero Section */
+  .hero-headline {
+    font-size: 28px;
+  }
+
+  .hero-subheadline {
+    font-size: 18px;
+  }
+
+  .hero-cta {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  /* Benefits Section */
+  .section-title {
+    font-size: 24px;
+  }
+
+  .benefit-title {
+    font-size: 18px;
+  }
+
+  .benefit-description {
+    font-size: 14px;
+  }
+  /* Gallery Section */
+  .section-title {
+    font-size: 24px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-description {
+    font-size: 12px;
+  }
+  /* Testimonials Section */
+  .section-title {
+    font-size: 24px;
+  }
+
+  .client-name {
+    font-size: 16px;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+  }
+  /* How It Works Section */
+  .section-title {
+    font-size: 24px;
+  }
+
+  .step-item {
+    flex-basis: 100%;
+  }
+
+  .step-title {
+    font-size: 16px;
+  }
+
+  .step-description {
+    font-size: 13px;
+  }
+  /* Contact Form Section */
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-intro {
+    font-size: 14px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .submit-btn {
+    font-size: 14px;
+  }
+  /* Guarantees Section */
+  .section-title {
+    font-size: 24px;
+  }
+
+  .guarantee-title {
+    font-size: 16px;
+  }
+
+  .guarantee-description {
+    font-size: 13px;
+  }
+  /* FAQ Section */
+  .section-title {
+    font-size: 24px;
+  }
+
+  .faq-question {
+    font-size: 15px;
+  }
+
+  .faq-answer {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  /* Hero Section */
+  .hero-headline {
+    font-size: 36px;
+  }
+
+  .hero-subheadline {
+    font-size: 20px;
+  }
+
+  .hero-cta {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+  /* Benefits Section */
+  .section-title {
+    font-size: 30px;
+  }
+
+  .benefit-item {
+    flex-basis: 100%;
+  }
+  /* Gallery Section */
+  .section-title {
+    font-size: 30px;
+  }
+
+  .project-item {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .project-overlay {
+    transform: translateY(0);
+    background-color: rgba(28, 63, 96, 0.9);
+  }
+  /* Testimonials Section */
+  .section-title {
+    font-size: 30px;
+  }
+
+  .testimonial-item {
+    flex-basis: 100%;
+  }
+  /* How It Works Section */
+  .section-title {
+    font-size: 30px;
+  }
+
+  .step-item {
+    flex-basis: calc(50% - 15px);
+  }
+  /* Contact Form Section */
+  .section-title {
+    font-size: 30px;
+  }
+
+  .section-intro {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    padding: 30px;
+  }
+  /* Guarantees Section */
+  .section-title {
+    font-size: 28px;
+  }
+
+  .guarantee-item {
+    flex-basis: 100%;
+    max-width: 400px;
+  }
+  /* FAQ Section */
+  .section-title {
+    font-size: 28px;
+  }
+
+  .faq-question {
+    font-size: 16px;
+  }
+
+  .faq-answer {
+    font-size: 14px;
+  }
+  /* Footer */
+  .footer-section {
+    flex-basis: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-policies {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Benefits Section */
+  .benefit-item {
+    flex-basis: calc(50% - 15px);
+  }
+  /* Gallery Section */
+  .project-item {
+    width: calc(50% - 20px);
+  }
+  /* Testimonials Section */
+  .testimonials-carousel {
+    flex-wrap: wrap;
+  }
+
+  .testimonial-item {
+    flex-basis: calc(50% - 15px);
+  }
+  /* How It Works Section */
+  .step-item {
+    flex-basis: calc(33.333% - 20px);
+  }
+  /* Guarantees Section */
+  .guarantee-item {
+    flex-basis: calc(50% - 30px);
+  }
+  /* Footer */
+  .footer-section {
+    flex-basis: calc(50% - 30px);
+  }
+}
